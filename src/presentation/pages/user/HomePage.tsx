@@ -9,37 +9,37 @@ import DealsPage from "../../components/bestDeals/BestDeals";
 import Banner from "../../components/banner/Banner";
 
 const HomePage = () => {
-    return (
-        <>
-            <>
-                <Banner></Banner>
-            </>
-            <>
-                <GundamStoreCategory></GundamStoreCategory>
-            </>
-            <>
-                <GundamService></GundamService>
-            </>
-            <>
-                <DealsPage></DealsPage>
-            </>
-            <>
-                <CarouselCategorySlider></CarouselCategorySlider>
-            </>
-            <>
-                <ProductViewList></ProductViewList>
-            </>
-            <>
-                <ProductShowCaseIntroduce></ProductShowCaseIntroduce>
-            </>
-            <>
-                <LatestNews></LatestNews>
-            </>
-            <>
-                <InstagramFeed></InstagramFeed>
-            </>
-        </>
-    );
-}
+  return (
+    <>
+      <>
+        <Banner></Banner>
+      </>
+      <>
+        <GundamStoreCategory></GundamStoreCategory>
+      </>
+      <>
+        <GundamService></GundamService>
+      </>
+      <>
+        <DealsPage></DealsPage>
+      </>
+      <>
+        <CarouselCategorySlider></CarouselCategorySlider>
+      </>
+      <>
+        <ProductViewList></ProductViewList>
+      </>
+      <>
+        <ProductShowCaseIntroduce></ProductShowCaseIntroduce>
+      </>
+      <>
+        <LatestNews></LatestNews>
+      </>
+      <>
+        <InstagramFeed></InstagramFeed>
+      </>
+    </>
+  );
+};
 
 export default HomePage;
